@@ -93,7 +93,21 @@ namespace RestaurantRaterMVC.Controllers
             }
 
             return View(restaurant); // this gives the user back exactly the same info they submitted, so they don't have to start entirely over
+        }
 
+        // GET: Restaurant/Details/{id}
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Restaurant restaurant = _db.Restaurants.Find(id);
+            if (restaurant == null)
+            {
+                return new HttpNotFoundResult();
+            }
+            return View(restaurant);
         }
     }
 }
