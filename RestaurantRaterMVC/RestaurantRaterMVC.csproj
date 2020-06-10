@@ -188,6 +188,15 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\breakfast.jpg" />
+    <Content Include="Assets\dessert.jpg" />
+    <Content Include="Assets\diningArea1.jpg" />
+    <Content Include="Assets\diningArea2.jpg" />
+    <Content Include="Assets\equality.jpg" />
+    <Content Include="Assets\fruitBowl.jpg" />
+    <Content Include="Assets\random1.jpg" />
+    <Content Include="Assets\random2.jpg" />
+    <Content Include="Assets\sandwhiches.jpg" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-journal.css" />
@@ -352,6 +361,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Shared\_Jumbotron.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

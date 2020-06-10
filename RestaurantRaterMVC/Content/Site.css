@@ -23,6 +23,22 @@ textarea {
     max-width: 280px;
 }
 
+.wrapper {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30rem;
+    margin-bottom: 5rem;
+}
+
+.jumbotron {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    margin: 0;
+}
+
 .body-content {
     margin-top: 5rem;
 }
@@ -42,5 +58,18 @@ textarea {
 
 .crudBtn {
     color: #EB6864;
+}
+
+.imgContainer {
+    max-height: 20rem;
+    position: relative;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.sectionImage {
+    position: relative;
+    width: 100%;
+    margin-top: -25%;
 }
     
