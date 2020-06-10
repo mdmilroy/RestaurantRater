@@ -22,3 +22,25 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.body-content {
+    margin-top: 5rem;
+}
+
+.navbar a {
+    color: white;
+}
+
+#homeCards {
+    justify-content: space-around;
+}
+
+.learnMore {
+    display: flex;
+    justify-content: center;
+}
+
+.crudBtn {
+    color: #EB6864;
+}
+    

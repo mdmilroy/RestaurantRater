@@ -1,17 +1,16 @@
 ﻿@model RestaurantRaterMVC.Models.Restaurant
 
 @{
-    ViewBag.Title = "Update a Rating";
+    ViewBag.Title = "Edit";
 }
 
-<h2>Edit a Rating</h2>
+<h2>Update a Rating</h2>
 
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
 
     <div class="form-horizontal">
-        <h4>Restaurant</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" }) <!--true allows error to be viewed at ind. properties; "" this would be red text we can set if not blank-->
         @Html.HiddenFor(model => model.RestaurantId) <!--puts id in the view without showing it, which would allow the user to change the id being sent-->
@@ -40,12 +39,8 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" /> |
-                @Html.ActionLink("Back to List", "Index")
-            </div>
-        </div>
+            <div class="col-md-1" style="display: inline-block"><input type="submit" class="crudBtn btn btn-default" value="Save" /></div>
+            <div class="btn btn-default col-md-2" style="display: inline-block">@Html.ActionLink("Back to List", "Index")</div>
     </div>
 
 }
