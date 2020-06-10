@@ -59,7 +59,6 @@ C:\Users\micha\source\repos\RestaurantRater\RestaurantRaterMVC\bin\Microsoft.Asp
 C:\Users\micha\source\repos\RestaurantRater\RestaurantRaterMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\micha\source\repos\RestaurantRater\RestaurantRaterMVC\bin\Microsoft.Owin.dll
 C:\Users\micha\source\repos\RestaurantRater\RestaurantRaterMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\micha\source\repos\RestaurantRater\RestaurantRaterMVC\bin\Microsoft.Owin.Security.Cookies.dll
 C:\Users\micha\source\repos\RestaurantRater\RestaurantRaterMVC\bin\Microsoft.Owin.Security.dll
 C:\Users\micha\source\repos\RestaurantRater\RestaurantRaterMVC\bin\Microsoft.Owin.Security.Facebook.dll
 C:\Users\micha\source\repos\RestaurantRater\RestaurantRaterMVC\bin\Microsoft.Owin.Security.Google.dll

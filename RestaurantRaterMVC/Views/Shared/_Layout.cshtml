@@ -9,26 +9,23 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+    <div class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="indexNav container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 @Html.ActionLink("Restaurant Rater", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Rate a Restaurant", "Index", "Restaurant")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
+                <button type="button" class="btn btn-outline-primary">@Html.ActionLink("Rate a Restaurant", "Index", "Restaurant")</button>
+                <button type="button" class="btn btn-outline-primary">@Html.ActionLink("About", "About", "Home")</button>
+                <button type="button" class="btn btn-outline-primary">@Html.ActionLink("Contact", "Contact", "Home")</button>
             </div>
+                @Html.Partial("_LoginPartial")
         </div>
     </div>
+
     <div class="container body-content">
         @RenderBody()
         <hr />
