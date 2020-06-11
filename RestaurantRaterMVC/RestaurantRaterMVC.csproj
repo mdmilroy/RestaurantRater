@@ -188,15 +188,25 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\analise-benevides-wZEf1Y6Kxs0-unsplash.jpg" />
     <Content Include="Assets\breakfast.jpg" />
     <Content Include="Assets\dessert.jpg" />
+    <Content Include="Assets\devn-TJDvP6xm2Eo-unsplash.jpg" />
     <Content Include="Assets\diningArea1.jpg" />
     <Content Include="Assets\diningArea2.jpg" />
+    <Content Include="Assets\emrecan-arik-K7fDlscNjFk-unsplash.jpg" />
     <Content Include="Assets\equality.jpg" />
     <Content Include="Assets\fruitBowl.jpg" />
+    <Content Include="Assets\facebook.svg" />
+    <Content Include="Assets\instagram.svg" />
+    <Content Include="Assets\linkedin.svg" />
+    <Content Include="Assets\youtube.svg" />
+    <Content Include="Assets\janko-ferlic-qzDF5PNEWKc-unsplash.jpg" />
     <Content Include="Assets\random1.jpg" />
     <Content Include="Assets\random2.jpg" />
+    <Content Include="Assets\ryan-de-hamer-mjAG6XytTJY-unsplash.jpg" />
     <Content Include="Assets\sandwhiches.jpg" />
+    <Content Include="Assets\sazzad-aryan-rjm8go9rL8Y-unsplash.jpg" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-journal.css" />
@@ -361,7 +371,8 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="Views\Shared\_Jumbotron.cshtml" />
+    <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\Team.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

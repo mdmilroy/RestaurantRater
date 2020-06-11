@@ -7,6 +7,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 5rem;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -23,28 +24,22 @@ textarea {
     max-width: 280px;
 }
 
-.wrapper {
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    height: 30rem;
-    margin-bottom: 5rem;
+.navbar a, .card-header {
+    color: white;
 }
 
 .jumbotron {
-    width: 50%;
-    height: 100%;
-    background-color: transparent;
-    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    max-height: 40rem;
+    position: center;
 }
 
-.body-content {
-    margin-top: 5rem;
-}
-
-.navbar a {
-    color: white;
+.jumbotron img{
+    width: 100%;
+    height: auto;
+    max-height: 40rem;
+    margin-top: -20%;
 }
 
 #homeCards {
@@ -54,10 +49,6 @@ textarea {
 .learnMore {
     display: flex;
     justify-content: center;
-}
-
-.crudBtn {
-    color: #EB6864;
 }
 
 .imgContainer {
@@ -72,4 +63,24 @@ textarea {
     width: 100%;
     margin-top: -25%;
 }
-    
+
+.ourTeam {
+    justify-content: space-around;
+}
+
+.ourTeam .card {
+    margin: 3rem auto;
+}
+
+.socialMediaBtn {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.socialMedia {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    margin: -1rem auto 1rem;
+}
