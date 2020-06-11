@@ -4,14 +4,87 @@
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<br />
+<br />
+<br />
+<br />
+<div class="section container col-md-12" id="boxA">
+    <div class="row" id="comments">
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+        <div class="contact col-md-3 rounded" id="good">
+            <h3 class="learnMore">Do you think it's awesome?!</h3><br />
+            <form action="submit" method="POST">
+                <div class="form-group">
+                    <label for="formname">What's your name?</label>
+                    <input type="text" class="form-control" id="formname" name="formname"
+                           placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="formemail">Email</label>
+                    <input type="email" class="form-control" id="formemail" name="formemail"
+                           placeholder="yourname@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="formphone">Phone Number</label>
+                    <input type="tel" class="form-control" id="formphone" name="formphone"
+                           placeholder="555-555-5555">
+                    <div class="form-check form-check-inline" style="padding-top: 5px;">
+                        <input class="form-check-input" type="checkbox" id="call" name="call" value="Call">
+                        <label class="form-check-label" for="call">Call</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="text" name="text" value="Text">
+                        <label class="form-check-label" for="text">Text</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="text" rows="5" class="form-control" id="message" name="message" placeholder="The latest release was AMAZING! Please keep adding to the live updates feature!!!"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary active" id="submit" name="submit" value="submit">
+                    Send
+                    it!
+                </button>
+            </form>
+        </div>
+
+        <div class="vl"></div>
+
+        <div class="contact col-md-3 rounded" id="bad">
+            <form action="submit" method="POST">
+                <h3 class="learnMore">C'Mon, let us have it...</h3><br />
+                <div class="form-group">
+                    <label for="formname">What's your name?</label>
+                    <input type="text" class="form-control" id="formname" name="formname"
+                           placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="formemail">Email</label>
+                    <input type="email" class="form-control" id="formemail" name="formemail"
+                           placeholder="yourname@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="formphone">Phone Number</label>
+                    <input type="tel" class="form-control" id="formphone" name="formphone"
+                           placeholder="555-555-5555">
+                    <div class="form-check form-check-inline" style="padding-top: 5px;">
+                        <input class="form-check-input" type="checkbox" id="call" name="call" value="Call">
+                        <label class="form-check-label" for="call">Call</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="text" name="text" value="Text">
+                        <label class="form-check-label" for="text">Text</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="text" rows="5" class="form-control" id="message" name="message" placeholder="... The past release was supposed to fix the issue, but still doesn't work on android... Help?!"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary active" id="submit" name="submit" value="submit">
+                    Send
+                    it!
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
